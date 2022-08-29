@@ -1,0 +1,13 @@
+{
+  "name": "tracker.gg-types",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "author": "lcapuano.app",
+  "license": "ISC",
+  "dependencies": {}
+}
