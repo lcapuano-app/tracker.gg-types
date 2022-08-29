@@ -1,0 +1,36 @@
+{
+  "name": "tracker.gg-types",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "dev": "nodemon tsc -p ."
+  },
+  "author": "lcapuano.app & vmarciano",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "@types/node": "^14.0.23",
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "node -r ts-node/register ./src/index.ts",
+    "ext": "ts"
+  }
+}

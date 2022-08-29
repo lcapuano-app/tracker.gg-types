@@ -1,1 +1,1 @@
-# tracker.gg-types
+# Tracker.gg valorant api response types
