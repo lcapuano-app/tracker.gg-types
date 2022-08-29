@@ -9,5 +9,9 @@ export interface TRNProfile {
   metadata          : TRNMetaData,
   segments          : TRNSegment[],
   availableSegments : any,
-  expiryDate        : string
+  expiryDate        : string,
+
+  trackerProfile?   : string,
+  riotId?           : string,
+  date?             : string
 }
