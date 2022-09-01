@@ -1,9 +1,10 @@
 export interface TRNPlatformInfo {
-  platformId?            : string,
-  platformSlug           : any,
+  platformId?            : string | number,
+  platformSlug           : string,
   platformUserIdentifier : string,
   platformUserId         : string,
   platformUserHandle     : string,
   avatarUrl              : string,
   additionalParameters   : any,
+  status?                : any
 }
